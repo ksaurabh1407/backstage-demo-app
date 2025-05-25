@@ -1,0 +1,15 @@
+site_name: 'Backstage-demo-app Documentation'
+site_description: 'Main documentation for Backstage-demo-app APIs'
+repo_url: https://github.com/ksaurabh1407/backstage-demo-app
+edit_uri: edit/main/docs
+
+plugins:
+  - techdocs-core
+  - redirects:
+      redirect_maps:
+        'index.md': 'overview/what-is-backstage.md'
+
+# For sidebar navigation on https://backstage.io/, see `microsite/sidebars.js`
+nav:
+  - Overview:
+      - What is Backstage-demo-app?: 'docs/index.md'
