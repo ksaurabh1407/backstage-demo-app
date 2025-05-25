@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: backstage demo application
+  name: backstage-demo-application
   description: A simple flask application that returns hostname.
   # Example for optional annotations
   annotations:
